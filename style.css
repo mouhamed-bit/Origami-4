@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+body{
+    background-color: white;
+    /* padding: 50px 50px 50px 50px; */
+}
+.example{
+    margin-left: 100px;
+    /* margin-right: 50px; */
+}
+.origami{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    border-radius: 20px;
+    width:310px;
+    font-family: fantasy;
+    background-color: white;
+    padding: 10px 10px 10px 35em;
+
+}
+.grid img{
+border: 2px solid black;
+border-radius: 50px;
+}
+.bodyimg h2{
+    padding: 10px 10px 10px 20em;
+
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.origami{
+    position: relative;
+}
+.origami.para{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
